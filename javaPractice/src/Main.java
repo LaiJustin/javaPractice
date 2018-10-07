@@ -108,7 +108,7 @@ public class Main {
 		return flag;
 	}
 	public static void display(LinkedList team,int myNum) {
-		Role contain = (Role) team.get(0);
+		/*Role contain = (Role) team.get(0);
 		if(contain.live <= 0)
 			System.out.println(0);
 		else
@@ -120,7 +120,7 @@ public class Main {
 				System.out.print(" "+contain.live);
 			}
 		}
-		System.out.println();
+		System.out.println();*/
 	}
 	static void summon(String []temp,LinkedList team,int myNum){
 		int position,live,power;

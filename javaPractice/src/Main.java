@@ -109,9 +109,9 @@ public class Main {
 	}
 	public static void display(LinkedList team,int myNum) {
 		Role contain = (Role) team.get(0);
-		/*if(contain.live <= 0)
+		if(contain.live <= 0)
 			System.out.println(0);
-		else*/
+		else
 			System.out.println(contain.live);
 		System.out.print(myNum);
 		if(myNum > 0) {
